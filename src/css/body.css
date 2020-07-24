@@ -1,0 +1,73 @@
+:root {
+    --main-bg-color: #00A1A0;
+    --main-color: #fff;
+}
+
+body {
+    background-color: #eee;
+}
+
+.head {
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0rem #888;
+    margin-bottom: 0.2rem;
+    line-height: 1.2rem;
+    padding: 0.4rem 0.4rem;
+}
+
+.lPart {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.rPart {
+    width: 80%;
+    height: 100%;
+    float: left;
+    /* margin-top: -2rem; */
+}
+
+.card {
+    border-radius: 0.4rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0rem #888;
+    background-color: #fff;
+    margin: 0.4rem 0.4rem;
+}
+
+.lPart-bottom-left {
+    width: 40%;
+    float: left;
+}
+
+.lPart-bottom-right {
+    width: 60%;
+    float: left;
+}
+
+.title {
+    line-height: 2rem;
+    padding-left: 16px;
+}
+
+.centerBut {
+    text-align: justify;
+}
+
+.SubNav {
+    padding: 0.8rem;
+}
+
+.SubNav div {
+    margin-bottom: 1rem;
+}
+
+.select {
+    width: 33%;
+}
+
+hr {
+    margin-left: -0.8rem;
+    margin-right: -0.8rem;
+}
