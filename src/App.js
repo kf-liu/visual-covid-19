@@ -71,7 +71,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="head">
-          Hello,KefangLiu
+          Hello
         </div>
         <div className="lPart">
           <div className="card">
@@ -111,6 +111,26 @@ class App extends Component {
               />
             </div>
           </div>
+        </div>
+        <div
+          style={{
+            textAlign: 'center',
+            width: '100%',
+            color: 'grey',
+          }}
+        >
+          <small>
+            &copy;
+            <a
+              href="https://github.com/qiaork"
+              target='_blank'
+              style={{
+                color: 'grey',
+              }}
+            >
+              kefangliu
+            </a>
+          </small>
         </div>
       </div>
     );
